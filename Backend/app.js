@@ -20,7 +20,6 @@ app.use('/captains', captainRoutes);
 
 
 
-
 app.get('/',(req,res)=>{
     res.send("hello")
 })
